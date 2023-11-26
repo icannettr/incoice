@@ -1,0 +1,30 @@
+{
+    "name": "icannettr/invoice",
+    "description": "UBL-TR 2.1 Generator",
+    "keywords": [
+        "icannettr",
+        "invoice"
+    ],
+    "homepage": "https://github.com/icannettr/invoice",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "İbrahim CAN",
+            "email": "icannettr@gmail.com",
+            "role": "Developer"
+        }
+    ],
+      "require": {
+        "php": "^7.1||^8.1",
+        "sabre/xml": "^2.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "icannettr\\invoice\\": "src"
+        }
+    }
+}
